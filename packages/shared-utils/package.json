@@ -1,0 +1,11 @@
+{
+  "name": "@repo/shared-utils",
+  "version": "0.0.0",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "echo 'Building shared-utils'",
+    "lint": "echo 'Linting shared-utils'",
+    "test": "echo 'Testing shared-utils'"
+  }
+}
