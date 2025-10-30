@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      prettier:
+        specifier: ^3.6.2
+        version: 3.6.2
       turbo:
         specifier: ^2.0.0
         version: 2.5.8
@@ -77,3 +80,9 @@ packages:
       turbo-windows-64: 2.5.8
       turbo-windows-arm64: 2.5.8
     dev: true
+  /prettier@3.6.2:
+    resolution: {integrity: sha512-wRK3+Xri4d8K71fionKxQ3L0gV/a6papsdif34QYmy/XWVT9V1yTOkkdIKtucINkunqcdAwOcG04MuDhIEw0Cw==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
