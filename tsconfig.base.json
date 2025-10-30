@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "noEmit": true,
+    "types": ["node"],
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@repo/core": ["packages/core/src/index.ts"],
+      "@repo/core/*": ["packages/core/src/*"],
+      "@repo/db": ["packages/db/src/index.ts"],
+      "@repo/db/*": ["packages/db/src/*"],
+      "@repo/shared-utils": ["packages/shared-utils/src/index.ts"],
+      "@repo/shared-utils/*": ["packages/shared-utils/src/*"]
+    }
+  }
+}

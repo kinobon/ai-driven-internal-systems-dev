@@ -1,0 +1,25 @@
+{
+  "name": "@repo/auth-api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc --project tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "echo 'Linting auth-api'",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@repo/core": "workspace:*",
+    "@hono/node-server": "^1.11.3",
+    "hono": "^4.6.9",
+    "jose": "^5.3.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.17.0",
+    "vitest": "^4.0.5"
+  }
+}
